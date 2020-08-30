@@ -130,7 +130,7 @@ inquirer
   });
 
 function buildTitle(title) {
-  const newtitle = "# ** " + title + " **";
+  const newtitle = "# " + title;
   return newtitle;
 }
 
