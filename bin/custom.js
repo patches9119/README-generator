@@ -15,7 +15,7 @@ inquirer
     },
     {
       type: "input",
-      message: "What elements would you like to include in the table of contents?(seperate each element with an amprisand)",
+      message: "What elements would you like to include in the table of contents?\n(seperate each element with a space or leave blank for default elements)",
       name: "toc"
     },
     {
@@ -135,6 +135,12 @@ function buildTitle(title) {
 }
 
 function buildTOC(toc) {
-  const newTOC = "### -" + toc.replace(/&/g, '\n### -');
-  return newTOC;
+  const defTOC = "-Instalation\n-Usage\n-Liscense\n-Contributions\n-Tests\n-Questions\n";
+  if (toc === "") {
+    return defTOC;
+  } else {
+    const newTOC = "-" + toc.replace(/ /g, '\n-');
+    return newTOC;
+  }
+
 }
