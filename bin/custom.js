@@ -135,11 +135,11 @@ function buildTitle(title) {
 }
 
 function buildTOC(toc) {
-  const defTOC = "-Instalation\n-Usage\n-Liscense\n-Contributions\n-Tests\n-Questions\n";
+  const defTOC = "-Instalation\n\n-Usage\n\n-Liscense\n\n-Contributions\n\n-Tests\n\n-Questions\n";
   if (toc === "") {
     return defTOC;
   } else {
-    const newTOC = "-" + toc.replace(/ /g, '\n-');
+    const newTOC = "-" + toc.replace(/ /g, '\n\n-');
     return newTOC;
   }
 
