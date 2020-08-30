@@ -1,0 +1,28 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "preferGlobal":true,
+  "description": "none",
+  "main": "bin/custom.js",
+  "bin": {
+    "generatecustom": "bin/custom.js",
+    "generatereadme": "bin/prebuilt.js"
+  },
+  "scripts": {
+    "build-custom": "node bin/custom.js",
+    "build-premade": "node bin/prebuilt.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patches9119/README-generator.git"
+  },
+  "author": "patches9119",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patches9119/README-generator/issues"
+  },
+  "homepage": "https://github.com/patches9119/README-generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
