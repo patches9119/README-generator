@@ -85,7 +85,7 @@ function pushImportantInfo(title, description, license) {
 };
 
 function buildREADME(title, description, license) {
-    const readme = "## " + title + "\n## Description\n" + description + "\n## Table of Contents\n-Instalation\n\n-Usage\n\n-Liscense\n\n-Contributions\n\n-Tests\n\n-Questions\n\n## Instalation \nHere is how to install the product\n\n## Usage \nHere is how to use the product\n\n## License \n" + license + "\n## Contributions\n No contributors\n\n## Tests\n Coming Soon!\n\n## Questions\n Coming Soon!";
+    const readme = "## " + title + "\n## Description\n" + description + "\n## Table of Contents\n-[Instalation](#instalation)\n\n-[Usage](#usage)\n\n-[Liscense](#liscense)\n\n-[Contributions](#contributions)\n\n-[Tests](#tests)\n\n-[Questions](#questions)\n\n## Instalation \nHere is how to install the product\n\n## Usage \nHere is how to use the product\n\n## License \n" + license + "\n## Contributions\n No contributors\n\n## Tests\n Coming Soon!\n\n## Questions\n Coming Soon!";
     fs.writeFile("README.md", readme, function (err) {
         if (err) {
             console.log(err);

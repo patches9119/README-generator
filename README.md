@@ -1,36 +1,35 @@
-# Readme Generator
+## Readme Generator
 
- ## Description 
-Here is a description of the product
+## Description
 
- ## Table of Contents 
--Instalation
+  none
+## Table of Contents
+-[Instalation](#instalation)
 
--Usage
+-[Usage](#usage)
 
--Liscense
+-[Liscense](#liscense)
 
--Contributions
+-[Contributions](#contributions)
 
--Tests
+-[Tests](#tests)
 
--Questions
+-[Questions](#questions)
 
-
- ## Instalation 
+## Instalation 
 Here is how to install the product
 
- ## Usage 
+## Usage 
 Here is how to use the product
 
- ## License 
-MIT
+## License 
 
- ## Contributions 
-No contributors
+  ISC
+## Contributions
+ No contributors
 
- ## Tests 
-Coming Soon!
+## Tests
+ Coming Soon!
 
- ## Questions 
-Coming Soon!
+## Questions
+ Coming Soon!
