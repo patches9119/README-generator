@@ -4,7 +4,7 @@
 Here is a description of the product
 
  ## Table of Contents 
--Instalation
+-[Instalation](#instalation)
 
 -Usage
 
