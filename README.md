@@ -16,9 +16,11 @@ This product is meant to create a very basic readme template for users to build 
 -[Questions](#questions)
 
 ## Minimum Requirements
--NodeJS
+-[NodeJS](https://nodejs.org/en/)
 
 -NPM
+
+>*Note: NPM is installed with NodeJS as of 8/31/20
 
 ## Installation
 Go to your command line and input the following code
