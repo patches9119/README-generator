@@ -65,9 +65,6 @@ This is a list of the prompts that will appear.
 
 >*Note that if you do want to input a manual table of contents that they will not come with a link embedded.
 
-## License 
-  ISC
-
 ## Contributions
  No contributors
 
@@ -76,3 +73,9 @@ This is a list of the prompts that will appear.
 
 ## Questions
  Coming Soon!
+ 
+ ## License
+
+Copyright © 2020 [Patrick Sanders <pbsanders1@gmail.com>](https://github.com/patches9119)
+
+This project is licensed by [MIT License](https://api.github.com/licenses/mit).
