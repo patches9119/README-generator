@@ -68,6 +68,9 @@ This is a list of the prompts that will appear.
 
 >*Note that if you do want to input a manual table of contents that they will not come with a link embedded.
 
+## Additional Support
+I went ahead and provided a video showing the installation and usage process of this application. [View it here](https://www.youtube.com/watch?v=H6zFD8isqsU)
+
 ## Contributions
  Me
 
