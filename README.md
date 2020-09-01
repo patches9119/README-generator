@@ -16,9 +16,9 @@ This product is meant to create a very basic readme template for users to build 
 -[Questions](#questions)
 
 ## Minimum Requirements
-NodeJS
+-NodeJS
 
-NPM
+-NPM
 
 ## Installation
 Go to your command line and input the following code
