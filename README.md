@@ -7,7 +7,7 @@ This product is meant to create a very basic readme template for users to build 
 
 -[Usage](#usage)
 
--[Liscense](#liscense)
+-[License](#license)
 
 -[Contributions](#contributions)
 
