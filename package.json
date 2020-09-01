@@ -1,12 +1,13 @@
 {
-  "name": "readme-generator",
+  "name": "base-readme-generator",
   "version": "1.0.0",
   "preferGlobal": true,
   "description": "none",
   "main": "bin/custom.js",
   "bin": {
     "generatecustom": "bin/custom.js",
-    "generatereadme": "bin/prebuilt.js"
+    "generatereadme": "bin/prebuilt.js",
+    "generatereadmetest": "bin/testresult.js"
   },
   "scripts": {
     "build-custom": "node bin/custom.js",

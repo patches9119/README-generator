@@ -48,6 +48,16 @@ inquirer
       message: "What would you like in the questions section?",
       name: "questions"
     },
+    {
+      type: "input",
+      message: "What is your GitHub Username?",
+      name: "github"
+    },
+    {
+      type: "input",
+      message: "What is your Email?",
+      name: "email"
+    },
   ])
   .then(answers => {
     var fs = require("fs");
@@ -61,6 +71,8 @@ inquirer
     const contributing = answers.contributing;
     const tests = answers.tests;
     const questions = answers.questions;
+    const github = answers.github;
+    const email = answers.email;
     //make sure to change when pushing changes
     fs.writeFile("README.md", buildTitle(title) + "\n", function (err) {
       if (err) {
@@ -102,7 +114,7 @@ inquirer
                       console.log(err);
                     }
 
-                    fs.appendFile("README.md", "\n ## Questions \n" + questions + "\n", function (err) {
+                    fs.appendFile("README.md", "\n ## Questions \n" + questions + "\nGithub Account: [Click Here](https://www.github.com/" + github + ") \nEmail: " + email, function (err) {
                       if (err) {
                         console.log(err);
                       }
@@ -135,7 +147,7 @@ function buildTitle(title) {
 }
 
 function buildTOC(toc) {
-  const defTOC = "-Instalation\n\n-Usage\n\n-Liscense\n\n-Contributions\n\n-Tests\n\n-Questions\n";
+  const defTOC = "-[Instalation](#instalation)\n\n-[Usage](#usage)\n\n-[Liscense](#liscense)\n\n-[Contributions](#contributions)\n\n-[Tests](#tests)\n\n-[Questions](#questions)\n";
   if (toc === "") {
     return defTOC;
   } else {
