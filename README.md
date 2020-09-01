@@ -35,6 +35,7 @@ $ generatereadmetest
 ```
 
 This should be output to the console.
+
 ![image](https://user-images.githubusercontent.com/67241239/91787096-ed409380-ebbd-11ea-8769-c65aeaf33641.png)
 
 Once you have successfully installed the package you will have access to two additional commands. "generatereadme" and
