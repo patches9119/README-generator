@@ -15,13 +15,12 @@ This product is meant to create a very basic readme template for users to build 
 
 -[Questions](#questions)
 
-## Instalation 
-### Minimum Requirements
+## Minimum Requirements
 NodeJS
 
 NPM
 
-### Installation Process
+## Installation
 Go to your command line and input the following code
 ```sh
 $ npm install -g base-readme-generator
@@ -38,12 +37,14 @@ This should be output to the console.
 
 ![image](https://user-images.githubusercontent.com/67241239/91787096-ed409380-ebbd-11ea-8769-c65aeaf33641.png)
 
+If you see this then congratulations you have finished installing!
+
 ## Usage
 
 Once you have successfully installed the package you will have access to two additional commands. "generatereadme" and
 "generatecustom".
 
-#### Generate Readme
+### Generate Readme
 ```sh
 $ generatereadme
 ```
@@ -53,7 +54,7 @@ $ npm init
 ```
 before trying to run this command
 
-#### Generate Custom
+### Generate Custom
 ```sh
 $ generatecustom
 ```
