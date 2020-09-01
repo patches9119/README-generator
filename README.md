@@ -72,10 +72,10 @@ This is a list of the prompts that will appear.
  Coming Soon!
 
 ## Questions
- Coming Soon!
+ Feel free to submit an issue here or email me at <pbsanders1@gmail.com>
  
  ## License
 
-Copyright © 2020 [Patrick Sanders <pbsanders1@gmail.com>](https://github.com/patches9119)
+Copyright © 2020 [Patrick Sanders](https://github.com/patches9119)
 
 This project is licensed by [MIT License](https://api.github.com/licenses/mit).
