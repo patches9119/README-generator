@@ -7,13 +7,13 @@ This product is meant to create a very basic readme template for users to build 
 
 -[Usage](#usage)
 
--[License](#license)
-
 -[Contributions](#contributions)
 
 -[Tests](#tests)
 
 -[Questions](#questions)
+
+-[License](#license)
 
 ## Minimum Requirements
 -[NodeJS](https://nodejs.org/en/)
