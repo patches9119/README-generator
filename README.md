@@ -70,7 +70,74 @@ This is a list of the prompts that will appear.
  No contributors
 
 ## Tests
+ As an example, take this very basic package.json file.
+ 
+ ```sh
+{
+  "name": "default-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.3.3"
+  }
+}
+```
+
+If you were to input the command:
+```sh
+$ generatereadme
+```
+
+The output would be:
+```sh
+# default-project
+## Description
+
+  
+## Table of Contents
+-[Instalation](#instalation)
+
+-[Usage](#usage)
+
+-[Liscense](#liscense)
+
+-[Contributions](#contributions)
+
+-[Tests](#tests)
+
+-[Questions](#questions)
+
+## Instalation 
+Here is how to install the product
+
+## Usage 
+Here is how to use the product
+
+## License 
+
+  ISC
+
+## Contributions
+ No contributors
+
+## Tests
  Coming Soon!
+
+## Questions
+ Coming Soon!
+```
+
+This then can be used as an easy starting point to finish the readme file for you project.
+
+>*Note: There is currently a known issue where sometimes the title will be a line below the first "#"
+
 
 ## Questions
  Feel free to submit an issue here or email me at <pbsanders1@gmail.com>
