@@ -23,30 +23,42 @@ NPM
 
 ### Installation Process
 Go to your command line and input the following code
->$ npm install -g base-readme-generator
+```sh
+$ npm install -g base-readme-generator
+```
 
 This product is meant to be installed globally on your machine.
 
 Once this is complete feel free to type in the command
->$ generatereadmetest
+```sh
+$ generatereadmetest
+```
 
-This should output
->Readme generator installed successfully!
+This should be output to the console.
+```sh
+Readme generator installed successfully!
+```
 
 Once you have successfully installed the package you will have access to two additional commands. "generatereadme" and
 "generatecustom".
 
 #### Generate Readme
->$ generatereadme
+```sh
+$ generatereadme
+```
 This is the default command that will auto fill in sections of a basic readme file with information from the package.json folder that is currently in the directory you are in. If no package.json folder is present the command will return an error. Make sure to run
->$ npm init
+```sh
+$ npm init
+```
 before trying to run this command
 
 #### Generate Custom
->$ generatecustom
+```sh
+$ generatecustom
+```
 This is a seperate command used if you want to get a head start on the readme and manually input a description, installation section etc. 
 
-*Note that if you do want to input a manual table of contents that they will not come with a link embedded.
+>*Note that if you do want to input a manual table of contents that they will not come with a link embedded.
 
 
 ## Usage 
