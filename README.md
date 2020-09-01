@@ -41,6 +41,8 @@ This should be output to the console.
 Once you have successfully installed the package you will have access to two additional commands. "generatereadme" and
 "generatecustom".
 
+## Usage
+
 #### Generate Readme
 ```sh
 $ generatereadme
@@ -62,10 +64,6 @@ This is a list of the prompts that will appear.
 ![image](https://user-images.githubusercontent.com/67241239/91787759-74423b80-ebbf-11ea-82d3-50abdc4483cd.png)
 
 >*Note that if you do want to input a manual table of contents that they will not come with a link embedded.
-
-
-## Usage 
-Here is how to use the product
 
 ## License 
   ISC
